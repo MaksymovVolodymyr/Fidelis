@@ -1,0 +1,364 @@
+@media handheld and (max-width: 935px), screen and (max-width: 935px) {
+    .wrapper, .fh_wrapper {
+        width: 240px;
+        position: relative;
+    }
+    .wrapper {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    .mob_fix + header {
+        background-color: white;
+        height: 85px;
+    }
+    .mob_fix + header .gamb_open {
+        background-image: url("../img/gamburger_blue.png");
+    }
+    .mob_fix + header .gamb_close {
+        background-image: url("../img/close_blue.png");
+    }
+    .mob_fix + header .main_menu {
+        background-color: #fff;
+    }
+    .mob_fix + header a {
+        color: #00293f;
+    }
+    .mob_fix + header .lang p {
+        color: #00293f;
+    }
+    .mob_fix + header .lang p:first-child:before {
+        content: url("../img/darrow_blue.png");
+    }
+
+    header .logo {
+        display: none;
+    }
+    header .main_menu {
+        position: absolute;
+        z-index: 1;
+        float: left;
+        width: 200px;
+        height: 0;
+        margin: 40px 0 0 0;
+        overflow: hidden;
+        padding: 0;
+        top: 0;
+        left: 0;
+        padding-top: 25px;
+        background-color: #00293f;
+    }
+    header li a:after {
+        max-width: 0;
+    }
+    .gamb {
+        display: block;
+        z-index: 2;
+        width: 24px;
+        height: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+    .gamb_open {
+        background-image: url("../img/gamburger.png");
+    }
+    .gamb_close {
+        background-image: url("../img/close_white.png");
+        background-size: cover;
+        background-position-y: 100%;
+    }
+    header .main_menu li {
+        display: block;
+        margin: 20px;
+        width: auto;
+    }
+    header .phone {
+        display: none;
+    }
+    .mob_header {
+        display: block;
+        text-align: center;
+        padding-bottom: 155px;
+        padding-top: 155px;
+    }
+    h2 {
+        display: block;
+        margin: 40px 0 30px 0;
+    }
+    .mob_header p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .main_page .top_slider {
+        display: none;
+    }
+    .slider {
+        height: 570px;
+    }
+    .choose_serv {
+        margin-top: 35px;
+        height: 660px;
+        overflow: hidden;
+        margin-bottom: 65px;
+    }
+    .choose_indu {
+        height: 640px;
+        overflow: hidden;
+    }
+    .services .main_indu {
+        margin: 10px 0;
+        padding: 18px;
+    }
+    .services .main_indu .serv_img {
+        position: absolute;
+        bottom: 28px;
+        left: 94px;
+        display: inline-block;
+        width: 29px;
+        height: 29px;
+        background-image: url("../img/arrow.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .services .main_indu:hover .serv_img {
+        background-image: url("../img/hoverarrow.svg");
+        background-size: 53%;
+        bottom: 28px;
+        left: 94px;
+        background-position: center;
+    }
+    .choose_serv a {
+        margin: 10px 0;
+    }
+    .choose_serv .serv {
+        width: 196px;
+    }
+    .serv_img {
+        left: 105px;
+    }
+    .services .button {
+        display: block;
+        color: #ffffff;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .services + h1 {
+        padding-top: 60px;
+    }
+    .services + .services {
+        margin-top: 50px;
+     }
+    .industri {
+        margin-top: 80px;
+    }
+    .industri ul {
+        margin-bottom: 125px;
+    }
+    .main_ind img {
+        display: none !important;
+    }
+    .industri + h1 {
+        width: 255px;
+    }
+    .brand {
+        margin-top: 25px;
+        height: 265px;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+    .brand img {
+        width: 240px;
+    }
+    .brand + .button {
+        display: block;
+        color: #ffffff;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .mob_industri {
+        margin-top: 0 !important;
+        overflow: hidden;
+    }
+
+    .choose_industri {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        height:  615px;
+        overflow: hidden;
+    }
+    .ind {
+        width: 240px;
+        margin-bottom: 30px;
+    }
+    .img_ind img {
+        height: 160px;
+        width: auto;
+    }
+    .img_ind img:nth-child(2) {
+        display: none;
+    }
+    .img_ind {
+        margin-bottom: 6px;
+        height: 160px;
+    }
+    .ind:hover .img_ind img:nth-child(1){
+        margin-left: 0;
+        opacity: 1;
+    }
+    .choose_industri + .button {
+        display: block;
+        color: #ffffff;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 700;
+        clear: both;
+    }
+    .articl + .button {
+        display: block;
+        color: #ffffff;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 700;
+        clear: both
+    }
+    .articls .button + p {
+        display: none;
+    }
+    .articls ul {
+        display: none;
+    }
+    .expert {
+        margin-bottom: 0 !important;
+    }
+    .exp_block:last-child {
+        margin-bottom: 0;
+    }
+    .expert p {
+        font-size: 16px;
+    }
+    .expert img {
+        margin-bottom: 40px;
+        height: 325px;
+    }
+    .articl {
+        position: relative;
+        height: 750px;
+    }
+    .articl img {
+        height: 155px;
+        float: left;
+        margin: 0 0 80px 0;
+    }
+    .articl h1 {
+        position: absolute;
+        top: 175px;
+    }
+    .news_wrapper {
+        text-align: left;
+        height: 550px;
+    }
+    .news .button {
+        width: 240px;
+        margin-bottom: 0;
+    }
+    .news h1:first-child {
+        display: none;
+    }
+    .news h1:nth-child(2) {
+        display: block;
+    }
+    .news article:first-child, .news article {
+        width: 240px;
+        height: auto;
+    }
+    article {
+        margin-bottom: 20px;
+    }
+    article .news_img {
+        height: 100px !important;
+        margin-bottom: 15px;
+        background-size: 100% !important;
+        width: auto !important;
+    }
+    .date {
+        display: none;
+    }
+
+    .aboutus {
+        position: relative;
+        height: 860px;
+        overflow: hidden;
+    }
+    .aboutus section {
+        margin-top: 25px !important;
+    }
+    .aboutus h1:first-child {
+        position: absolute;
+        left: 0;
+        top: 180px;
+        width: 100%;
+    }
+
+    .aboutus section:nth-child(2) img {
+        height: 155px;
+        width: 240px;
+        margin-bottom: 85px;
+    }
+    .aboutus section:nth-child(3) img {
+        height: 155px;
+        width: 240px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .aboutus p {
+        width: 100% !important;
+    }
+    .our_team div {
+        margin-bottom: 20px;
+    }
+    .our_team {
+        margin-bottom: 10px;
+    }
+    .aboutus + .button {
+        display: block;
+        color: #ffffff;
+        width: 240px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .mob_contact + .wrapper {
+        display: none;
+    }
+    .mob_contact{
+        height: 120px;
+    }
+
+    footer {
+        position: relative;
+    }
+    footer .soc_ico {
+        width: 100px;
+        position: absolute;
+        left:0;
+        top: 310px;
+    }
+    footer .phone {
+        float: left;
+        margin-left: -10px;
+        margin-top: 40px;
+        margin-bottom: 180px;
+    }
+    footer .copyright {
+        clear: both;
+        width:auto;
+        margin: 0;
+    }
+}
