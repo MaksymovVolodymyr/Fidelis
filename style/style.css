@@ -202,7 +202,9 @@ header li:hover a:after {
     width: 150px;
 }
 /*   - - -   M A I N   P A G E  - - -   */
-
+.mobile_news {
+    display: none;
+}
 .slider {
     height: calc(100vh - 170px);
     width: calc(100% - 40px);
@@ -446,7 +448,7 @@ header li:hover a:after {
     display: none;
 }
 .services + h1 {
-    width: 110%;
+    width: 100%;
 }
 .choose_serv_viewer {
     text-align: justify;

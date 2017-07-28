@@ -414,4 +414,9 @@
     }
     la.addEventListener('click', moveLeft);
     ra.addEventListener('click', moveRight);
+
+    document.getElementById("lang").onclick = function() {
+        this.style.height = "40px";
+    };
+
 })();

@@ -361,4 +361,13 @@
         width:auto;
         margin: 0;
     }
+    .slider {
+        display: none;
+    }
+    .mobile_news {
+        display: block;
+    }
+    .mobile_news img {
+        max-width: 100%;
+    }
 }
