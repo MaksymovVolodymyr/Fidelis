@@ -7,28 +7,7 @@
         padding-top: 35px;
         padding-bottom: 80px;
     }
-    .mob_fix + header {
-        background-color: white;
-        height: 85px;
-    }
-    .mob_fix + header .gamb_open {
-        background-image: url("../img/gamburger_blue.png");
-    }
-    .mob_fix + header .gamb_close {
-        background-image: url("../img/close_blue.png");
-    }
-    .mob_fix + header .main_menu {
-        background-color: #fff;
-    }
-    .mob_fix + header a {
-        color: #00293f;
-    }
-    .mob_fix + header .lang p {
-        color: #00293f;
-    }
-    .mob_fix + header .lang p:first-child:before {
-        content: url("../img/darrow_blue.png");
-    }
+  
 
     header .logo {
         display: none;

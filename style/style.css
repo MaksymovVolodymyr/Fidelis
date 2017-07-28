@@ -436,9 +436,6 @@ header li:hover a:after {
 }
 
 /*   - - -   S E R V I C E S   - - -   */
-.mob_fix {
-    display: none;
-}
 .choose_serv {
     margin: 25px 0 40px 0;
     width: 100%;
