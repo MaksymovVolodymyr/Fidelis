@@ -354,4 +354,7 @@
     .disk_wrapper {
         bottom: 95px;
     }
+    .map {
+        max-width: 100%;
+    }
 }
