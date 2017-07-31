@@ -1,3 +1,35 @@
+document.getElementById("lang").onclick = function() {
+        this.style.height = "40px";
+    };
+( function () {
+    var gamb = document.querySelector('.gamb');
+    var work = false;
+    var status = true;
+    if (gamb !== null) {
+        if (work === true) return;
+        work = true;
+    };
+    if( gamb === null || work === false) {
+        return;
+    };
+    work = true;
+    function show() {
+        var tr = this.nextElementSibling;
+        var ht = 200 + 'px';
+        if (status === true) {
+            Velocity( tr, { "height" : ht, 'width' : '100%'}, [.08,.8,.59,.25]);
+            this.classList.remove('gamb_open');
+            this.classList.add('gamb_close');
+            status = false;
+        } else {
+            Velocity(tr, {"height": '0', 'width' : '200px'}, [.08, .8, .59, .25]);
+            this.classList.add('gamb_open');
+            this.classList.remove('gamb_close');
+            status = true;
+        }
+    }
+    gamb.addEventListener('click', show);
+})();
 ( function(){
     var langName = document.querySelectorAll('.lang p');
     function chooseMoney(ev) {
@@ -318,35 +350,7 @@
         button.addEventListener('click', show);
     }
 })();
-( function () {
-    var gamb = document.querySelector('.gamb');
-    var work = false;
-    var status = true;
-    if (gamb !== null) {
-        if (work === true) return;
-        work = true;
-    };
-    if( gamb === null || work === false) {
-        return;
-    };
-    work = true;
-    function show() {
-        var tr = this.nextElementSibling;
-        var ht = 200 + 'px';
-        if (status === true) {
-            Velocity( tr, { "height" : ht, 'width' : '100%'}, [.08,.8,.59,.25]);
-            this.classList.remove('gamb_open');
-            this.classList.add('gamb_close');
-            status = false;
-        } else {
-            Velocity(tr, {"height": '0', 'width' : '200px'}, [.08, .8, .59, .25]);
-            this.classList.add('gamb_open');
-            this.classList.remove('gamb_close');
-            status = true;
-        }
-    }
-    gamb.addEventListener('click', show);
-})();
+
 (function(){
     var slider = document.querySelector('.brand');
     var work = false;
@@ -414,9 +418,5 @@
     }
     la.addEventListener('click', moveLeft);
     ra.addEventListener('click', moveRight);
-
-    document.getElementById("lang").onclick = function() {
-        this.style.height = "40px";
-    };
 
 })();
