@@ -144,9 +144,9 @@
     }
     .brand {
         margin-top: 25px;
-        height: 265px;
+        height: 220px;
         overflow: hidden;
-        margin-bottom: 70px;
+        margin-bottom: 0;
     }
     .brand img {
         width: 240px;
