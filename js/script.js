@@ -391,7 +391,6 @@ document.getElementById("lang").onclick = function() {
     };
     function moveLeft(ev) {
         counter--; 
-        console.log(counter);
         var position = -correction*counter + 'px';
          Velocity( viewer, { "marginLeft" : position }, 600);
         if(counter === 0) {
