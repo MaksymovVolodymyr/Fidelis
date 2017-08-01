@@ -131,6 +131,9 @@ header .logo {
     float: left;
     margin: 15px 0 0 5px;
 }
+.logo img {
+    width: 72px;
+}
 header .main_menu {
     width: 610px;
     padding: 48px 0 48px 0;
