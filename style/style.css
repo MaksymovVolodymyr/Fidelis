@@ -81,11 +81,17 @@ footer p {
     line-height: 20px;
     font-weight: 400;
 }
+footer p:active {
+    color: #fff;
+}
 header p {
     color: #ffffff;
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
+}
+header p:active {
+    color: #fff;
 }
 header a {
     color: #ffffff;
@@ -633,6 +639,9 @@ header li:hover a:after {
 /*   - - -   A B O U T   U S   - - -   */
 .aboutus + .button {
     display: none;
+}
+.aboutus section p {
+    text-align: justify;
 }
 .aboutus section:nth-child(2) {
     margin: 25px 0 0 0;
