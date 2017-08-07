@@ -599,6 +599,7 @@ header li:hover a:after {
 }
 .articl p {
     line-height: 22px;
+    text-align: justify;
 }
 .articls ul {
     list-style-type: disc;
