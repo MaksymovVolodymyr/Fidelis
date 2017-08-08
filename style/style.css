@@ -302,6 +302,13 @@ header li:hover a:after {
     height: auto;
     overflow: hidden;
 }
+.sub_articl .h-sl-text {
+    text-align: justify;
+    color: #00293f;
+}
+.sub_articl .h-subsl-text {
+    text-align: left;
+}
 .sub_slider .sub_articl img {
     margin-bottom: 15px;
     width: 100%;
@@ -625,6 +632,7 @@ header li:hover a:after {
     height: 380px;
 }
 .articls h1 {
+    max-width: 100%;
     margin-bottom: 20px;
 }
 .articls div {
