@@ -536,6 +536,9 @@ header li:hover a:after {
     overflow: hidden;
 }
 .choose_industri_viewer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: justify;
 }
 .choose_industri_viewer:after {
