@@ -465,6 +465,9 @@ header li:hover a:after {
     width: 100%;
 }
 .choose_serv_viewer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: justify;
 }
 .choose_serv_viewer:after {
