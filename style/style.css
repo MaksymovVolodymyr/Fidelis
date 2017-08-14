@@ -671,7 +671,6 @@ header li:hover a:after {
 }
 .aboutus section:nth-child(2) p {
     display: block;
-    width: 480px;
     line-height: 22px;
 }
 .aboutus section:nth-child(3) p {
